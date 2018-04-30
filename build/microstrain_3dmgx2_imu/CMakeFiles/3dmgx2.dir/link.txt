@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,lib3dmgx2.so -o /home/odroid/truck_ws/devel/lib/lib3dmgx2.so CMakeFiles/3dmgx2.dir/src/3dmgx2.cc.o 

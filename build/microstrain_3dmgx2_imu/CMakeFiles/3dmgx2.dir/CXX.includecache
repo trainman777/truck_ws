@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/odroid/truck_ws/src/microstrain_3dmgx2_imu/include/microstrain_3dmgx2_imu/3dmgx2.h
+fstream
+-
+stdexcept
+-
+stdint.h
+-
+
+/home/odroid/truck_ws/src/microstrain_3dmgx2_imu/src/3dmgx2.cc
+assert.h
+-
+errno.h
+-
+fcntl.h
+-
+math.h
+-
+stdio.h
+-
+string.h
+-
+sys/stat.h
+-
+termios.h
+-
+unistd.h
+-
+netinet/in.h
+-
+stdlib.h
+-
+sys/time.h
+-
+microstrain_3dmgx2_imu/3dmgx2.h
+/home/odroid/truck_ws/src/microstrain_3dmgx2_imu/src/microstrain_3dmgx2_imu/3dmgx2.h
+poll.h
+/home/odroid/truck_ws/src/microstrain_3dmgx2_imu/src/poll.h
+

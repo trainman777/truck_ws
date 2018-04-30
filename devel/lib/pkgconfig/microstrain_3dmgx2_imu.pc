@@ -1,0 +1,8 @@
+prefix=/home/odroid/truck_ws/devel
+
+Name: microstrain_3dmgx2_imu
+Description: Description of microstrain_3dmgx2_imu
+Version: 1.5.12
+Cflags: -I/home/odroid/truck_ws/devel/include -I/home/odroid/truck_ws/src/microstrain_3dmgx2_imu/include
+Libs: -L/home/odroid/truck_ws/devel/lib -l3dmgx2 /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
+Requires: message_runtime roscpp sensor_msgs self_test diagnostic_updater tf std_srvs std_msgs

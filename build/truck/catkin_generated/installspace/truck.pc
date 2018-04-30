@@ -1,0 +1,8 @@
+prefix=/home/odroid/truck_ws/install
+
+Name: truck
+Description: Description of truck
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/truck_ws/install/lib 
+Requires: 

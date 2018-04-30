@@ -1,0 +1,2 @@
+microstrain_3dmgx2_imu:rosserial/rosserial:rosserial/rosserial_arduino:rosserial/rosserial_client:rosserial/rosserial_embeddedlinux:rosserial/rosserial_mbed:rosserial/rosserial_msgs:rosserial/rosserial_python:rosserial/rosserial_server:rosserial/rosserial_test:rosserial/rosserial_tivac:rosserial/rosserial_windows:rosserial/rosserial_xbee:truck:truck_base
+-DCATKIN_DEVEL_PREFIX=/home/odroid/truck_ws/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/truck_ws/install -G Unix Makefiles
